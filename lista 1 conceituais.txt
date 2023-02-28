@@ -1,0 +1,12 @@
+ 1 - biblioteca é o termo usado  para definir o código-fonte compilado produzido por terceiros que possibilita 
+adicionar novas funções ao código-fonte do software.
+
+2 - Swing é uma biblioteca do Java para criar interfaces gráficas.
+
+3 - Quais são os componentes de interface gráfica de usuário (GUI) fornecidos pela biblioteca Swing para:
+  - Botão: JButton.
+  - Campo de Texto: JTextField
+  - Caixa de Seleção: JCheckBox
+  - Barra de Progresso: JProgressBar
+  - Botão de opção: JToggleButton
+  - Caixa de Combinação: JComboBox
