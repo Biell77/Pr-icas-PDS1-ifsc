@@ -1,7 +1,11 @@
- 1 - biblioteca é o termo usado  para definir o código-fonte compilado produzido por terceiros que possibilita 
+ 1 - Em programação, o que é uma biblioteca? 
+
+ R: biblioteca é o termo usado  para definir o código-fonte compilado produzido por terceiros que possibilita 
 adicionar novas funções ao código-fonte do software.
 
-2 - Swing é uma biblioteca do Java para criar interfaces gráficas.
+2 - Em programação, o que é uma biblioteca? 
+
+R: Swing é uma biblioteca do Java para criar interfaces gráficas.
 
 3 - Quais são os componentes de interface gráfica de usuário (GUI) fornecidos pela biblioteca Swing para:
   - Botão: JButton.
@@ -10,3 +14,30 @@ adicionar novas funções ao código-fonte do software.
   - Barra de Progresso: JProgressBar
   - Botão de opção: JToggleButton
   - Caixa de Combinação: JComboBox
+
+4 - Quais são os propósitos dos layouts no Swing? E quais são os layouts possíveis?
+
+R: Processo de determinar o tamanho e a posição dos componentes
+   BorderLayout, BoxLayout, FlowLayout, GridLayout, AbsolutLayout
+
+5 - Como é possível fazer a validação de entrada de dados em campos de texto?
+
+R: GetText e IF;
+
+6- Pesquise e descreva três principais características entre a biblioteca Swing, a biblioteca AWT (Abstract Window Toolkit) e o JavaFX?
+
+R: 
+          Biblioteca Swing
+- JButton = Área que aciona um evento quando o usuário clica. 
+- JCheckBox = Possui dois estados: selecionado ou não- selecionado. 
+- JComboBox = Lista de itens que o usuário pode fazer uma seleção clicando em um item na lista ou digitando na caixa.
+
+          Biblioteca AWT
+- TextField = é um componente muito utilizado em Java para a criação de formulários onde é necessário a inserção dos dados pelo teclado.
+- Container = servem para agrupar e exibir outros componentes.
+- Frame: permite dividir uma página em quadros cada qual podendo conter documentos distintos e independentes.
+
+         JavaFX
+- Permite que os desenvolvedores integrem gráficos de vetor, recursos Web de animação, áudio e vídeo em uma aplicação rica, interativa e imersiva.
+- Estende a tecnologia Java permitindo o uso de qualquer biblioteca Java em uma aplicação JavaFX.
+- Permite um fluxo de trabalho eficiente de designer para desenvolvedor, no qual os designers podem trabalhar com suas ferramentas preferidas, em colaboração com desenvolvedores
