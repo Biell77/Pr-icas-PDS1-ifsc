@@ -92,16 +92,16 @@ public class ex6 extends JFrame {
 				Double n2 = Double.valueOf(textNota1.getText());
 				Double n3 = Double.valueOf(textNota1.getText());
 				
-				Double mediaF = (n1+n2+n3)/3.0;
+				Double media = (n1+n2+n3)/3.0;
 				
-				if(mediaF<0 || mediaF>10) {
+				if(media<0 || media>10) {
 					JOptionPane.showMessageDialog(btnNewButton, "Erro!\nDigite denovo");
 				}
-				if(mediaF>0 && mediaF<6) {
-					JOptionPane.showMessageDialog(btnNewButton, "Reprovou! Nome: "+nome+", Nota: "+mediaF);
+				if(media>0 && media<6) {
+					JOptionPane.showMessageDialog(btnNewButton, "Reprovou! Nome: "+nome+", Nota: "+media);
 				}
-				if(mediaF>=6 && mediaF<=10) {
-					JOptionPane.showMessageDialog(btnNewButton, "Aprovado! Nome: "+nome+", Nota: "+mediaF);
+				if(media>=6 && media<=10) {
+					JOptionPane.showMessageDialog(btnNewButton, "Aprovado! Nome: "+nome+", Nota: "+media);
 				}
 			}
 		});
