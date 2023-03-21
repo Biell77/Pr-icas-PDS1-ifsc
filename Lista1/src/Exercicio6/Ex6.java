@@ -12,7 +12,7 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class ex6 extends JFrame {
+public class Ex6 extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField textNome;
@@ -27,7 +27,7 @@ public class ex6 extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					ex6 frame = new ex6();
+					Ex6 frame = new Ex6();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -39,7 +39,7 @@ public class ex6 extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public ex6() {
+	public Ex6() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();

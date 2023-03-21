@@ -11,7 +11,7 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class ex4 extends JFrame {
+public class Ex4 extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField CampoTexto1;
@@ -25,7 +25,7 @@ public class ex4 extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					ex4 frame = new ex4();
+					Ex4 frame = new Ex4();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -37,7 +37,7 @@ public class ex4 extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public ex4() {
+	public Ex4() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();

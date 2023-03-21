@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class ex5 extends JFrame {
+public class Ex5 extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField textL1;
@@ -27,7 +27,7 @@ public class ex5 extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					ex5 frame = new ex5();
+					Ex5 frame = new Ex5();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -39,7 +39,7 @@ public class ex5 extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public ex5() {
+	public Ex5() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
@@ -93,7 +93,7 @@ public class ex5 extends JFrame {
 		contentPane.add(lblLado);
 
 		JLabel lblLado_2 = new JLabel("Lado 3");
-		lblLado_2.setBounds(223, 42, 46, 14);
+		lblLado_2.setBounds(229, 42, 46, 14);
 		contentPane.add(lblLado_2);
 	}
 }
